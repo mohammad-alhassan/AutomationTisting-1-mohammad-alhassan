@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite">
+    <test name="LoginTests" >
+
+        <groups>
+            <run>
+                <include name="chekout"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="BasicCode.TestNG"/>
+        </classes>
+    </test>
+</suite>

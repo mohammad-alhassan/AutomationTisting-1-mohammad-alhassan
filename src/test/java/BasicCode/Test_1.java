@@ -1,3 +1,5 @@
+package BasicCode;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,7 +38,7 @@ public class Test_1 {
     }
 
     @Test
-    public void DropownMenu() throws InterruptedException {
+    public void DropDownMenu() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");

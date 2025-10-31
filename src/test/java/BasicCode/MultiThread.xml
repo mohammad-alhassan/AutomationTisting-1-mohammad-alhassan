@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite">
+    <test name="LoginTests" parallel="classes" thread-count="3">
+
+        <classes>
+            <class name="BasicCode.TestNG"/>
+            <class name="BasicCode.Test_1"/>
+            <class name="BasicCode.Test_2"/>
+        </classes>
+    </test>
+</suite>
